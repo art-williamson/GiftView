@@ -1,24 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5UA-3r-3Mz">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Main Selection View Controller-->
+        <scene sceneID="0Km-2O-po7">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="5UA-3r-3Mz" customClass="MainSelectionViewController" customModule="GiftView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HPE-Ua-cmw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GIFTENATOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5Q-QJ-IwJ" userLabel="Title Label">
+                                <rect key="frame" x="19" y="89" width="374" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="48"/>
+                                <color key="textColor" red="0.13743704678356156" green="0.53842646222191781" blue="1" alpha="0.93653681510410947" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8l-bd-lST" userLabel="Birthdays Button">
+                                <rect key="frame" x="103" y="433" width="207" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.54367244240000001" green="0.59186355707808225" blue="0.54905533790000005" alpha="0.14993578767123289" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Birthdays">
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRD-uD-vze" userLabel="Christmas Button">
+                                <rect key="frame" x="104" y="512" width="207" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.54367244240000001" green="0.59186355707808225" blue="0.54905533790000005" alpha="0.14993578767123289" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Christmas">
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyX-M1-Sgw" userLabel="Anniversaries Button">
+                                <rect key="frame" x="104" y="591" width="207" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.54367244240000001" green="0.59186355707808225" blue="0.54905533790000005" alpha="0.14993578767123289" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Anniversaries">
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdX-hM-qCP" userLabel="Other Button">
+                                <rect key="frame" x="104" y="670" width="207" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.54367244240000001" green="0.59186355710000005" blue="0.54905533790000005" alpha="0.14993578769999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Other">
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="T6W-yf-pqB"/>
                     </view>
+                    <connections>
+                        <outlet property="BirthdayButton" destination="H8l-bd-lST" id="A9d-wM-NP4"/>
+                        <outlet property="ChristmasButton" destination="eRD-uD-vze" id="rCH-Ua-KTQ"/>
+                        <outlet property="anniversaryButton" destination="nyX-M1-Sgw" id="ynp-0P-DOU"/>
+                        <outlet property="birthdayButton" destination="H8l-bd-lST" id="PCz-s0-cUD"/>
+                        <outlet property="christmasButton" destination="eRD-uD-vze" id="OkX-2m-WzM"/>
+                        <outlet property="otherButton" destination="TdX-hM-qCP" id="bhd-S4-lF7"/>
+                        <outlet property="titelLabel" destination="Q5Q-QJ-IwJ" id="TOR-QQ-DJi"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yH4-gq-9ra" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-168.11594202898553" y="-56.25"/>
         </scene>
     </scenes>
 </document>

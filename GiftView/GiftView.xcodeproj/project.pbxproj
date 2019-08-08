@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FFB7E12622F4CB8400F3E67B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7E12522F4CB8400F3E67B /* AppDelegate.swift */; };
-		FFB7E12822F4CB8400F3E67B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7E12722F4CB8400F3E67B /* ViewController.swift */; };
+		FFB7E12822F4CB8400F3E67B /* MainSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7E12722F4CB8400F3E67B /* MainSelectionViewController.swift */; };
 		FFB7E12B22F4CB8400F3E67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB7E12922F4CB8400F3E67B /* Main.storyboard */; };
 		FFB7E12E22F4CB8400F3E67B /* GiftView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFB7E12C22F4CB8400F3E67B /* GiftView.xcdatamodeld */; };
 		FFB7E13022F4CB8500F3E67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB7E12F22F4CB8500F3E67B /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		FFB7E12222F4CB8400F3E67B /* GiftView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB7E12522F4CB8400F3E67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFB7E12722F4CB8400F3E67B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFB7E12722F4CB8400F3E67B /* MainSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSelectionViewController.swift; sourceTree = "<group>"; };
 		FFB7E12A22F4CB8400F3E67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFB7E12D22F4CB8400F3E67B /* GiftView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GiftView.xcdatamodel; sourceTree = "<group>"; };
 		FFB7E12F22F4CB8500F3E67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				FFB7E12522F4CB8400F3E67B /* AppDelegate.swift */,
-				FFB7E12722F4CB8400F3E67B /* ViewController.swift */,
-				FFB7E12922F4CB8400F3E67B /* Main.storyboard */,
 				FFB7E12F22F4CB8500F3E67B /* Assets.xcassets */,
+				FFB7E12922F4CB8400F3E67B /* Main.storyboard */,
 				FFB7E13122F4CB8500F3E67B /* LaunchScreen.storyboard */,
 				FFB7E13422F4CB8500F3E67B /* Info.plist */,
 				FFB7E12C22F4CB8400F3E67B /* GiftView.xcdatamodeld */,
+				FFB7E12722F4CB8400F3E67B /* MainSelectionViewController.swift */,
 			);
 			path = GiftView;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB7E12822F4CB8400F3E67B /* ViewController.swift in Sources */,
+				FFB7E12822F4CB8400F3E67B /* MainSelectionViewController.swift in Sources */,
 				FFB7E12E22F4CB8400F3E67B /* GiftView.xcdatamodeld in Sources */,
 				FFB7E12622F4CB8400F3E67B /* AppDelegate.swift in Sources */,
 			);
