@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF381C1A2310248E007B306D /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF381C192310248E007B306D /* ChecklistViewController.swift */; };
 		FFB7E12622F4CB8400F3E67B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7E12522F4CB8400F3E67B /* AppDelegate.swift */; };
 		FFB7E12822F4CB8400F3E67B /* MainSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7E12722F4CB8400F3E67B /* MainSelectionViewController.swift */; };
 		FFB7E12B22F4CB8400F3E67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB7E12922F4CB8400F3E67B /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF381C192310248E007B306D /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		FFB7E12222F4CB8400F3E67B /* GiftView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB7E12522F4CB8400F3E67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFB7E12722F4CB8400F3E67B /* MainSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSelectionViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				FFB7E13422F4CB8500F3E67B /* Info.plist */,
 				FFB7E12C22F4CB8400F3E67B /* GiftView.xcdatamodeld */,
 				FFB7E12722F4CB8400F3E67B /* MainSelectionViewController.swift */,
+				FF381C192310248E007B306D /* ChecklistViewController.swift */,
 			);
 			path = GiftView;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFB7E12822F4CB8400F3E67B /* MainSelectionViewController.swift in Sources */,
+				FF381C1A2310248E007B306D /* ChecklistViewController.swift in Sources */,
 				FFB7E12E22F4CB8400F3E67B /* GiftView.xcdatamodeld in Sources */,
 				FFB7E12622F4CB8400F3E67B /* AppDelegate.swift in Sources */,
 			);
