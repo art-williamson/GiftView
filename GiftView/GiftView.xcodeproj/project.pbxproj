@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FF381C1A2310248E007B306D /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF381C192310248E007B306D /* ChecklistViewController.swift */; };
+		FF63453A2314207400F9746A /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6345392314207400F9746A /* ChecklistItem.swift */; };
+		FF63453D2314218900F9746A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63453C2314218800F9746A /* Person.swift */; };
+		FF63453F2314279600F9746A /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63453E2314279600F9746A /* AddPersonViewController.swift */; };
 		FFB7E12622F4CB8400F3E67B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7E12522F4CB8400F3E67B /* AppDelegate.swift */; };
 		FFB7E12822F4CB8400F3E67B /* MainSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7E12722F4CB8400F3E67B /* MainSelectionViewController.swift */; };
 		FFB7E12B22F4CB8400F3E67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB7E12922F4CB8400F3E67B /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		FF381C192310248E007B306D /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		FF6345392314207400F9746A /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		FF63453C2314218800F9746A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FF63453E2314279600F9746A /* AddPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
 		FFB7E12222F4CB8400F3E67B /* GiftView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB7E12522F4CB8400F3E67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFB7E12722F4CB8400F3E67B /* MainSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSelectionViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF63453B2314208500F9746A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFB7E12722F4CB8400F3E67B /* MainSelectionViewController.swift */,
+				FF381C192310248E007B306D /* ChecklistViewController.swift */,
+				FF63453E2314279600F9746A /* AddPersonViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		FFB7E11922F4CB8400F3E67B = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +74,15 @@
 		FFB7E12422F4CB8400F3E67B /* GiftView */ = {
 			isa = PBXGroup;
 			children = (
+				FF63453B2314208500F9746A /* ViewControllers */,
 				FFB7E12522F4CB8400F3E67B /* AppDelegate.swift */,
 				FFB7E12F22F4CB8500F3E67B /* Assets.xcassets */,
 				FFB7E12922F4CB8400F3E67B /* Main.storyboard */,
 				FFB7E13122F4CB8500F3E67B /* LaunchScreen.storyboard */,
 				FFB7E13422F4CB8500F3E67B /* Info.plist */,
 				FFB7E12C22F4CB8400F3E67B /* GiftView.xcdatamodeld */,
-				FFB7E12722F4CB8400F3E67B /* MainSelectionViewController.swift */,
-				FF381C192310248E007B306D /* ChecklistViewController.swift */,
+				FF6345392314207400F9746A /* ChecklistItem.swift */,
+				FF63453C2314218800F9746A /* Person.swift */,
 			);
 			path = GiftView;
 			sourceTree = "<group>";
@@ -141,10 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF63453D2314218900F9746A /* Person.swift in Sources */,
 				FFB7E12822F4CB8400F3E67B /* MainSelectionViewController.swift in Sources */,
+				FF63453A2314207400F9746A /* ChecklistItem.swift in Sources */,
 				FF381C1A2310248E007B306D /* ChecklistViewController.swift in Sources */,
 				FFB7E12E22F4CB8400F3E67B /* GiftView.xcdatamodeld in Sources */,
 				FFB7E12622F4CB8400F3E67B /* AppDelegate.swift in Sources */,
+				FF63453F2314279600F9746A /* AddPersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
