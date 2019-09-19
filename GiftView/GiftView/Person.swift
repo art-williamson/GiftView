@@ -12,6 +12,5 @@ class Person {
     var name = ""
     var numberOfItems = 0
     var totalAmount = 0.00
-
-    //needs an array of items
+    var gifts: [String] = []
 }
